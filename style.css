@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+/* html {
+  font-size: 1vw;
+} */
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(185, 75%, 39%);
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 1rem;
+  color: hsl(229, 23%, 23%);
+  max-width: 1440px;
+}
+
+.card-background {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.img-top,
+.img-bottom {
+  position: absolute;
+}
+
+.img-top {
+  right: 50%;
+  bottom: 33%;
+}
+
+.img-bottom {
+  top: 55%;
+  left: 50%;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 60%;
+  transform: translate(-50%, -50%);
+  border-radius: 1em;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.card-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 1em 1em 0 0;
+  height: 75%;
+  border-bottom: 1px solid hsl(0, 0%, 59%);
+}
+
+.card-top-bg {
+  border-radius: 1em 1em 0 0;
+}
+
+.card-user-img {
+  transform: translateY(-50%);
+  border-radius: 50%;
+  border: 3px solid white;
+  width: 30%;
+}
+
+.card-user-details {
+  transform: translateY(-50%);
+  width: 45%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-name-age {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user-age {
+  color: hsl(0, 0%, 59%);
+}
+
+.user-city {
+  margin-top: 0.8em;
+  color: hsl(0, 0%, 59%);
+}
+
+.card-stats {
+  display: flex;
+  background-color: white;
+  justify-content: space-around;
+  align-items: center;
+  height: 25%;
+  border-radius: 0 0 1em 1em;
+}
+
+.data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.data p:first-child {
+  font-weight: 700;
+}
+
+.data p:last-child {
+  font-size: 0.75em;
+  margin-top: 0.75em;
+  letter-spacing: 1.5px;
+  color: hsl(0, 0%, 59%);
+}
