@@ -1,8 +1,8 @@
 # profile-card-component
 
 Notes:
-My first project all on my own without any tutorial.
-Satisfaction on the outcome: 70%
+My first project all on my own without leaning on any tutorial.
+Satisfaction on the final result: 70%
 
 Learnings from this assignment:
 
